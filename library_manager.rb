@@ -12,14 +12,14 @@ class LibraryManager
   end
 
   def could_meet_each_other? first_author, second_author
-    first_author.can_meet? second_author
+
   end
 
   def days_to_buy
 
   end
 
-  def author_translit author
+  def transliterate
 
   end
 
@@ -27,6 +27,7 @@ class LibraryManager
 
   end
 
+  # this is a placeholder. Just ignore it for the moment.
   def email_notification_params
 
   end
