@@ -1,6 +1,6 @@
 class LibraryManager
 
-  attr_accessor :reader_with_book :issue_datetime
+  attr_accessor :reader_with_book, :issue_datetime
 
   def initialize reader_with_book, issue_datetime
     @reader_with_book = reader_with_book
@@ -19,7 +19,7 @@ class LibraryManager
 
   end
 
-  def transliterate
+  def transliterate author
 
   end
 
