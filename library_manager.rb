@@ -1,6 +1,13 @@
 class LibraryManager
 
-  def penalty price, issue_datetime
+  attr_accessor :reader_with_book :issue_datetime
+
+  def initialize reader_with_book, issue_datetime
+    @reader_with_book = reader_with_book
+    @issue_datetime = issue_datetime
+  end
+
+  def penalty
 
   end
 
@@ -8,15 +15,19 @@ class LibraryManager
     first_author.can_meet? second_author
   end
 
-  def days_to_buy price
+  def days_to_buy
 
   end
 
-  def author_translit ukr_name
+  def author_translit author
 
   end
 
-  def penalty_to_finish book, reader, issue_datetime, current_page
+  def penalty_to_finish
+
+  end
+
+  def email_notification_params
 
   end
 

@@ -6,7 +6,5 @@ class Reader
     @reding_speed = reading_speed
   end
 
-  def time_to_finish book, current_page
-    (book.pages_quantity - current_page) / reading_speed
-  end
+  def 
 end
